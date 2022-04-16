@@ -13,16 +13,16 @@ for i in generator(list):
     for j in generator(list):
         if j > last_box:
             print(j,'Bigger than',last_box,'Go Right !')
-            result = ({'Input':last_box},{'right':j})
+            result = ({'Input':last_box},{'Right OUT':j})
             result_conteiner.append(result)
             last_box = j
         elif j < last_box:
             print(j, 'less than', last_box,'Go Left !')
-            result = ({'Input': last_box}, {'left':j})
+            result = ({'Input': last_box}, {'Left OUT':j})
             result_conteiner.append(result)
             last_box = j
         elif j == last_box:
-            print(j,"Root Side :",last_box,'The Beggining of Tree')
+            print(j,"Root Side :",last_box,'The Beggining of the Tree')
             last_box = j
     print('The end is:',last_box,'That\'s why this is a Leaf')
     result = ({'Input': last_box}, {'Leaf': None})
