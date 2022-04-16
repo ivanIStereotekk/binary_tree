@@ -25,7 +25,7 @@ def binary_tree_builder(*args):
       binary_tree)
 
 
-#binary_tree_builder(data)
+binary_tree_builder(data)
 
 def binary_tree_values(*args):
     #cleaned = re.findall("[\d{9}]", str(*args))
