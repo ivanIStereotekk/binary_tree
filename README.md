@@ -1,6 +1,6 @@
 # binary_tree
 
-Here is two files with Binary Tree Builder's
+Here is two python files with Binary Tree Builder's
 --------------------------------------------
 main.py - the way by used binarytree lib
 --------------------------------------------
