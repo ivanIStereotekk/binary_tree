@@ -13,6 +13,4 @@ tree_app.py - two generators way
 Result of tree_app.py :
 ---------------------------------------------
 
-<img width="375" alt="Результат" src="https://user-images.githubusercontent.com/18102432/163693122-c5c1b035-8fed-4c84-85e1-305e1e073aa1.png">
-
 
