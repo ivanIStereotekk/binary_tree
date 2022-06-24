@@ -3,7 +3,7 @@ import re
 # The function with two async one step shift generatots
 def binary_tree_maker(list):
     '''
-    The function with two async (one step shift) generators
+    The function with two one step shift generators
     Takes argument list of things... Enjoy!
     '''
     def generator(list):
